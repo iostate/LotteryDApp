@@ -6,6 +6,7 @@
     "test": "test"
   },
   "scripts": {
+    "deploy": "npx hardhat run scripts/dep.js --network localhost",
     "test": "hardhat test"
   },
   "repository": {
